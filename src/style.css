@@ -1,0 +1,24 @@
+:root {
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100%;
+}
+
+#app {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+}
